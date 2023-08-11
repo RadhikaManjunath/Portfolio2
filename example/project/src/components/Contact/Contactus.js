@@ -4,8 +4,8 @@ import { Component } from "react";
 class Contactus extends Component {
     render() {
         return (
-            <div class="contctus bg-dark">
-                <Navbar />
+            <div class=" bg-dark">
+                <Navbar/>
                 <p className="text-center fw-lighter mt-5 text-light ">Feel free to contact me anytime</p>
                 <h1 class="text-center fw-bold text-light">Get in Touch</h1>
                 <p class="text-center text-success example">______ ___ ______</p>
@@ -28,7 +28,7 @@ class Contactus extends Component {
                         <div className="col-md-6 ">
 
                             <h3 class="text-light">Contact info</h3>
-                            <p class="text-light">Always available for freelancer work if the right project comes along ,feel free to contact me!</p>
+                            <p class="text-light">Always available for frontend work if the right project comes along ,feel free to contact me!</p>
                             <h4 class="fw-bold text-light">Name </h4>
                             <p class="text-light"> Radhika</p>
 

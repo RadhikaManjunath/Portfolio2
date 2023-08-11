@@ -9,7 +9,7 @@ class Resume1 extends Component {
                 <Navbar></Navbar>
                 <p className="text-light mt-5 text-center">Check out my Resume</p>
                 <h2 className="text-success fw-bold mb-2 text-center"> Resume</h2>
-                <p className="text-light text-center">____ __  ____</p>
+                <p className="text-light text-center">____ __ ____</p>
                 <hr />
                 <div className=" row">
                     <div className="col-md-5 m-3">
@@ -54,7 +54,7 @@ class Resume1 extends Component {
                                 <br/>
 
                                 <hr className="text-light"/>
-                                <h4 className="text-light">Ongoing MERN Course </h4>
+                                <h4 className="text-light">Completed Course MERN Full Stack </h4>
                                 <p className="text-light">Mongodb Express React Node.js</p>
                                 <p className="text-light">In Ethnus-Codemithra Center </p>
                                 <p className="text-light">At Banglore </p>
@@ -73,20 +73,20 @@ class Resume1 extends Component {
                         <div class="col-md-5">
                             <div class="w3-light-grey">
                                 <span class="ms-5 text-light">HTML/CSS</span>
-                                {/* <span class="m-5 text-light">95%</span> */}
+                                <span class="m-5 text-light">95%</span>
 
                                     <div class="w3-green" style={{height:"24px",width:"100%"}}>
-                                         {/* <progress className="ms-5" value="95" width="100%" max="100">95%</progress> */}
+                                         <progress className="ms-5  bg-success" value="95" width="100%" max="100">95%</progress>
                                     </div>
                             </div><br></br>
                         </div>
                         <div class="col-md-5">
                             <div class="w3-light-grey">
                                 <span class="ms-5 text-light">Bootstrap</span>
-                                {/* <span class="m-5 text-light">90%</span> */}
+                                <span class="m-5 text-light">90%</span>
                                 
                                     <div class="w3-green" style={{height:"24px",width:"100%"}}>
-                                         {/* <progress className="ms-5" value="90" width="100%" max="100"></progress> */}
+                                         <progress className="ms-5  bg-success" value="90" width="100%" max="100"></progress>
                                     </div>
                             </div><br></br>
                         </div>
@@ -96,10 +96,10 @@ class Resume1 extends Component {
                         <div class="col-md-5">
                             <div class="w3-light-grey">
                                 <span class="ms-5 text-light">javascript</span>
-                                {/* <span class="m-5 text-light">80</span> */}
+                                <span class="m-5 text-light">80</span>
 
                                     <div class="w3-green" style={{height:"24px",width:"100%"}}>
-                                         {/* <progress className="ms-5" value="80" width="100%" max="100">95%</progress> */}
+                                         <progress className="ms-5  bg-success" value="80" width="100%" max="100">95%</progress>
                                     </div>
                             </div>
                         </div>
@@ -108,7 +108,7 @@ class Resume1 extends Component {
                                 <span class="ms-5 text-light">React js</span>
                                 
                                     <div class="w3-green" style={{height:"24px",width:"100%"}}>
-                                         {/* <progress className="ms-5" value="90" width="100%" max="100"></progress> */}
+                                         <progress className="ms-5  bg-success" value="90" width="100%" max="100"></progress>
                                     </div>
                             </div><br></br>
                         </div>
@@ -118,20 +118,20 @@ class Resume1 extends Component {
                         <div class="col-md-5">
                             <div class="w3-light-grey">
                                 <span class="ms-5 text-light">Express</span>
-                                {/* <span class="m-5 text-light">90%</span> */}
+                                <span class="m-5 text-light">90%</span>
 
                                     <div class="w3-green" style={{height:"24px",width:"100%"}}>
-                                         {/* <progress className="ms-5" value="90" width="100%" max="100"></progress> */}
+                                         <progress className="ms-5  bg-success" value="90" width="100%" max="100"></progress>
                                     </div>
                             </div><br></br>
                         </div>
                         <div class="col-md-5">
                             <div class="w3-light-grey">
                                 <span class="ms-5 text-light">Node js</span>
-                                {/* <span class="m-5 text-light">80%</span> */}
+                                <span class="m-5 text-light">80%</span>
                                 
                                     <div class="w3-green" style={{height:"24px",width:"100%"}}>
-                                         {/* <progress className="ms-5" value="80" width="100%" max="100"></progress> */}
+                                         <progress className="ms-5  bg-success" value="80" width="100%" max="100"></progress>
                                     </div>
                             </div><br></br>
                         </div>
@@ -141,20 +141,20 @@ class Resume1 extends Component {
                         <div class="col-md-5">
                             <div class="w3-light-grey">
                                 <span class="ms-5 text-light">Core java</span>
-                                {/* <span class="m-5 text-light">80%</span> */}
+                                <span class="m-5 text-light">80%</span>
 
                                     <div class="w3-green" style={{height:"24px",width:"100%"}}>
-                                         {/* <progress className="ms-5" value="80" width="100%" max="100"></progress> */}
+                                         <progress className="ms-5  bg-success" value="80" width="100%" max="100"></progress>
                                     </div>
                             </div><br></br>
                         </div>
                         <div class="col-md-5">
                             <div class="w3-light-grey">
                                 <span class="ms-5 text-light"> Mongodb</span>
-                                {/* <span class="m-5 text-light">90%</span> */}
+                                <span class="m-5 text-light ">90%</span>
                                 
                                     <div class="w3-green" style={{height:"24px",width:"100%"}}>
-                                         {/* <progress className="ms-5" value="90" width="100%" max={100} ></progress> */}
+                                         <progress className="ms-5 bg-success" value="90" width="100%" max={100} ></progress>
                                     </div>
                             </div><br></br>
                         </div>

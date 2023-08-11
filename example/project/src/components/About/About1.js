@@ -19,10 +19,10 @@ class About1 extends Component{
                         <img src={image} alt="img" height={500} width={350} ></img> 
                     </div>
                     <div className="col-sm-8 text-light"> 
-                    <h4 className=" my-2 fw-light">Who Iam?</h4>
+                    <h4 className=" my-2 fw-light">Who Iam? &#128525;</h4>
                     <h2 className="fw-bold my-4 text-success fs-1">Iam Radhika</h2>
                     <h2 className="fw-bold my-4 text-success fs-1">A Web Developer and a Learner </h2><br/>
-                     <p className="fw-light text-light fs-4">I am a freelancer based in the United Kingdom and i have been building noteworthy UX/UI designs and websites for years, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.
+                     <p className="fw-light text-light fs-4">I am a frontend developer and as well as backend developer i have been building websites designs, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster. It will help the client to feel better. 
 
 </p>
                 <div className="row">
@@ -45,12 +45,12 @@ class About1 extends Component{
                     <span className ="fw-light text-light">Hassan</span>
                 </div>
 
-                <div class="mt-5 ms-5">
+                <div class="mt-5 ms-5 icons">
                     <button className="btn mb-5 btn-success rounded-5 btn-lg">Download</button>
-                <FaFacebook class="flogo mb-5  ms-2 center"></FaFacebook>
-                    <FaInstagram class="inslogo mb-5  ms-2 center "></FaInstagram>
-                    <FaLinkedin class="linklogo mb-5 ms-2 center"></FaLinkedin>
-                    <FaGithub class="gitlogo mb-5  ms-2 center"></FaGithub>
+                <FaFacebook class="flogo mb-5  ms-2 center icon"></FaFacebook>
+                    <FaInstagram class="inslogo mb-5  ms-2 center icon"></FaInstagram>
+                    <FaLinkedin class="linklogo mb-5 ms-2 center icon"></FaLinkedin>
+                    <FaGithub class="gitlogo mb-5  ms-2 center icon"></FaGithub>
                 </div>
 
                     

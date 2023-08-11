@@ -1,5 +1,37 @@
-body{
+/* body{
   background-image: url("C:/Portfolio2/example/project/src/components/Images/portfolio.gif");
   background-repeat: no-repeat;
   background-size: cover;
+}  */
+.icons{
+  display:inline-flex;
+  column-gap: 25px;
 }
+.icon{
+  display: inline-flex;
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  outline:2px solid #fff;
+  transition-property: outline-offset,outline-color,background-color;
+  transition-duration:0.25s;
+}
+.icon:hover{
+  outline-offset: 4px;
+
+}
+
+.icon i{
+  margin: auto;
+}
+.icon:hover i{
+  animation: shake 0.25s;
+  
+}
+h1 span{
+  opacity:0;
+  display:inline-block;
+  animation: animate 1s
+  linear forwards;
+  -webkit-animation: animate 1s linear forwards;
+} 

@@ -8,13 +8,13 @@ import Contactus from './components/Contact/Contactus';
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
+    <div className="App bg-dark">
+      <BrowserRouter basename='Portfolio2'>
         <Routes>
-          <Route path="/project" index element={<Homepage></Homepage>} />
-          <Route path="/About1" element={<About1></About1>}/>
-          <Route path="/Resume1" element={<Resume1></Resume1>}/>
-          <Route path="/Contactus" element={<Contactus></Contactus>}/>
+          <Route path="/" index element={<Homepage></Homepage>} />
+          <Route path="/About1" element={<About1/>}/>
+          <Route path="/Resume1" element={<Resume1/>}/>
+          <Route path="/Contactus" element={<Contactus/>}/>
         </Routes>
       </BrowserRouter>
     </div>

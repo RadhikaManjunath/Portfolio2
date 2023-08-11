@@ -33,11 +33,20 @@ class Homepage extends Component{
         return(
             <div>
                 <Navbar></Navbar>
-
-                <h1 class="text-center   m-5  " style={{textAlign:"center",color:"green",paddingTop:"150px"}}> RADHIKA </h1>
+                <div id="c1"> 
+                <h1 class="text-center   m-5  " style={{textAlign:"center",color:"green",paddingTop:"150px"}}> 
+                <span>R</span>
+                <span>A</span>
+                <span>D</span>
+                <span>H</span>
+                <span>I</span>
+                <span>K</span>
+                <span>A</span>
+                </h1>
                 <span class="text-center  fs-1 fw-bold"  style={{textAlign:"center",color:"green" ,paddingLeft:"50px",marginLeft:"500px"}}> I am a </span>
                 <span class="text-center fs-1 fw-bold "  style={{color:"green",textAlign:"center",paddingBottom:"800px"}}>  {this.state.name}</span>
                 <br/>
+                </div>
 
                     <footer className="text-center " style={{paddingTop:"250px"}}>
                         
