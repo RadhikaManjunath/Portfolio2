@@ -7,11 +7,11 @@ class Navbar extends Component{
         return(
             <div className="">
                 <nav className="navbar">
-                    <a className=" navbar-brand text-primary " href="/project">Radhika</a>
+                    <Link className=" navbar-brand text-primary " to="/">Radhika</Link>
                     <div className="nav">
-                        <Link className="nav-link text-primary fw-bold" to="./About1">About</Link>
-                        <Link className="nav-link text-primary fw-bold" to="./Resume1">Resume</Link>
-                        <Link className="nav-link text-primary fw-bold" to="./Contactus">Contactus</Link>
+                        <Link className="nav-link text-primary fw-bold" to="/About1">About</Link>
+                        <Link className="nav-link text-primary fw-bold" to="/Resume1">Resume</Link>
+                        <Link className="nav-link text-primary fw-bold" to="/Contactus">Contactus</Link>
                     </div>
                 </nav>
             </div>
